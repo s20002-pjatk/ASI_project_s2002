@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T19:05:54.151Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="hfMkzc7AUL2L4zfHBm_7" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-01T19:07:23.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AEuVXiZAkNEgmVo-lWya" version="20.0.4" type="github">
   <diagram id="TBJxufM5Nzm1yPSdCavO" name="Page-1">
     <mxGraphModel dx="4142" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
             <mxPoint x="-260" y="435" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lPiTISsA9HOT361Q44LX-24" value="curated data.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lPiTISsA9HOT361Q44LX-24" value="curated dataset.csv" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-260" y="410" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lPiTISsA9HOT361Q44LX-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.005;entryY=0.586;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="lPiTISsA9HOT361Q44LX-1">
@@ -120,7 +120,7 @@
             <mxPoint x="540" y="790" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lPiTISsA9HOT361Q44LX-44" value="data evaluation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lPiTISsA9HOT361Q44LX-44" value="data evaluation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="385" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="lPiTISsA9HOT361Q44LX-46" value="&lt;br&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;rounded=1;" vertex="1" parent="1">
@@ -160,7 +160,7 @@
             <mxPoint x="860" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lPiTISsA9HOT361Q44LX-57" value="drift detection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lPiTISsA9HOT361Q44LX-57" value="drift detection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="lPiTISsA9HOT361Q44LX-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="lPiTISsA9HOT361Q44LX-35">
