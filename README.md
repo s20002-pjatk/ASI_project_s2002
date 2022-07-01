@@ -19,7 +19,7 @@ The architecture of the application is described by the diagram shown in the Fig
 
 ![Alt](architecture.drawio.svg)
 
-http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png
+
 ## 3.Installation <a name="installation"></a>
 
 The easiest way to run the application is to use Anaconda Navigator. It can be download from: https://anaconda.org/ 
