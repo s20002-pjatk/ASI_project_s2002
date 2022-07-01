@@ -45,5 +45,5 @@ To run the application type in  Anaconda Prompt the following command:
 Make sure that Anaconda Prompt points the correct location where the file is stored. 
 
   
-## 5. Authors <a name="authors"></a>
+## 4. Authors <a name="authors"></a>
 Sara Szymkuć is the only author of the application.
