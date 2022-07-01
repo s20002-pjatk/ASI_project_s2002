@@ -20,11 +20,11 @@ The architecture of the application is described by the diagram shown in the Fig
 
 The program can be divided into the following stages:
 
-1.preparation of initial dataset</n>
-2.training of the model
-3.evaluation and drift detection on new data
-4.augmentation of the dataset by incorporation of the new datapont
-5.retraining and updating the model
+1.preparation of initial dataset  
+2.training of the model  
+3.evaluation and drift detection on new data  
+4.augmentation of the dataset by incorporation of the new datapont  
+5.retraining and updating the model  
 
 Ponits 2 to 5 are in a loop which causes the model to be  constantly updated.
 
