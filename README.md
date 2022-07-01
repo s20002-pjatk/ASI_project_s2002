@@ -20,7 +20,7 @@ The architecture of the application is described by the diagram shown in the Fig
 ![Alt](architecture.drawio.svg)
 
 
-## 3.Installation <a name="installation"></a>
+## 3.Installation <a name="instruction"></a>
 
 Clone this repository:
 
