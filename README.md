@@ -1,9 +1,9 @@
 # ASI_project_s2002
 # Table of contents
-## 1. General (#general)
-## 2. Architecture (#architecture)
-## 3. Instruction (#instruction)
-## 4. Authors (#authors)
+## 1. [General](#general)
+## 2. [Architecture](#architecture)
+## 3. [Instruction](#instruction)
+## 4. [Authors](#authors)
 
 ## 1. General <a name="general"></a>
 The application was designed to support choice of wine. It can help non-expert customers to select quqlity wine. It can be a part of bigger software as well as stand-alone application.
