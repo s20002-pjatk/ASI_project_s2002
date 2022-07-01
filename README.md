@@ -52,11 +52,11 @@ pandas==1.4.2
 pycaret==2.3.10
   
 they can be  installed in the virtual environment by typing in Anaconda Prompt:
-
-$ pip install library==X.XX.X
-
-To run the application, the userr has to type in  Anaconda Prompt the following command:
-$ python wine_classifier_mod2.py
+  
+$ pip install library==X.XX.X  
+  
+To run the application, the userr has to type in  Anaconda Prompt the following command:  
+$ python wine_classifier_mod2.py  
 
 Make sure that Anaconda Prompt points the correct location where the file is stored. 
 
