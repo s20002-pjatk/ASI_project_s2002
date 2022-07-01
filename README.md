@@ -22,28 +22,28 @@ The architecture of the application is described by the diagram shown in the Fig
 
 ## 3.Installation <a name="installation"></a>
 
+Clone this repository:
+
+git clone https://github.com/s20002-pjatk/ASI_project_s2002.git
+
 The easiest way to run the application is to use Anaconda Navigator. It can be download from: https://anaconda.org/ 
 
-After installation of the anaconda software, create a new virtual evironment in Anaconda Navigator. Recommended python version is 3.8.13.
+After installation of the anaconda software, create a new virtual evironment in Anaconda Navigator. Use the requirements.txt to create 
+new environment by typing in Anaconda Prompt:
 
+$ conda create --name <env> --file requirements.txt
+
+The new enrvironment comprises all necessary libraries to run the application: numpy,pandas and pycaret.
+  
 To activate new environmet , type in the fllowing command in Anaconda Prompt:
 
 (base) C:\Users\saras>conda activate ASI
-
-Neccessary libraries to run the application were listed below:
-- numpy 
-- pandas
-- pycaret
-
-They can be installed in the new virtual environement by typing in the Anaconda Prompt the following command:
-
-(ASI) C:\Users\saras> pip install name_of_the_library
 
 To run the application type in  Anaconda Prompt the following command:
 (ASI) C:\Users\saras> python wine_classifier_mod2.py
 
 Make sure that Anaconda Prompt points the correct location where the file is stored. 
 
-
+  
 ## 5. Authors <a name="authors"></a>
 Sara Szymkuć is the only author of the application.
