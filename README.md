@@ -18,6 +18,16 @@ The architecture of the application is described by the diagram shown in the Fig
 
 ![Alt](architecture.drawio.svg)
 
+The program can be divided into the following stages:
+
+1.preparation of initial dataset
+2.training of the model
+3.evaluation and drift detection on new data
+4.augmentation of the dataset by incorporation of the new datapont
+5.retraining and updating the model
+
+Ponits 2 to 5 are in a loop which causes the model to be  constantly updated.
+
 
 ## 3.Installation <a name="instruction"></a>
 
@@ -27,12 +37,12 @@ git clone https://github.com/s20002-pjatk/ASI_project_s2002.git
 
 The easiest way to run the application is to use Anaconda Navigator. It can be download from: https://anaconda.org/ 
 
-After installation of the anaconda software, create a new virtual evironment in Anaconda Navigator. Use the requirements.txt to create 
-new environment by typing in Anaconda Prompt:
+After installation of the anaconda software, create a new virtual evironment using either Anaconda Navigator or Anaconda Prompt.
+In case of using Anaconda prompt the user should type in the following command:
 
 $ conda create --name ASI python=3.8.13 -y
 
-The next step is to activate new environmet. It can be done by typing in the fllowing command in Anaconda Prompt:
+The next step is to activate the new environmet. It can be done by typing in the fllowing command in Anaconda Prompt:
 
 $ C:\Users\saras>conda activate ASI
 
@@ -43,9 +53,9 @@ pycaret==2.3.10
   
 they can be  installed in the virtual environment by typing in Anaconda Prompt:
 
-$ pip install <library>==<version>
+$ pip install library==X.XX.X
 
-To run the application type in  Anaconda Prompt the following command:
+To run the application, the userr has to type in  Anaconda Prompt the following command:
 $ python wine_classifier_mod2.py
 
 Make sure that Anaconda Prompt points the correct location where the file is stored. 
