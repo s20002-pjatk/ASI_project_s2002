@@ -17,6 +17,8 @@ Data to construct machine learning model were downlowaded from Kaggle.
 ## 2. Architecture <a name="architecture"></a>
 The architecture of the application is described by the diagram shown in the Figure 1.
 
+![Alt](images/architectire.svg)
+
 http://jgraph.github.io/drawio-github/edit-diagram.html?repo=drawio-github&path=diagram.png
 ## 3.Installation <a name="installation"></a>
 
