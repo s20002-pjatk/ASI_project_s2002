@@ -17,35 +17,6 @@ Data to construct machine learning model were downlowaded from Kaggle.
 ## 2. Architecture <a name="architecture"></a>
 The architecture of the application is described by the diagram shown in the Figure 1.
 
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@s20002-pjatk 
-s20002-pjatk
-/
-ASI_project_s2002
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-ASI_project_s2002/Untitled Diagram.drawio
-@s20002-pjatk
-s20002-pjatk architecture.drawio
-Latest commit 356fb00 2 minutes ago
- History
- 1 contributor
-210 lines (210 sloc)  14.7 KB
-
 <mxfile host="app.diagrams.net" modified="2022-07-01T19:07:23.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="AEuVXiZAkNEgmVo-lWya" version="20.0.4" type="github">
   <diagram id="TBJxufM5Nzm1yPSdCavO" name="Page-1">
     <mxGraphModel dx="4142" dy="1164" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
