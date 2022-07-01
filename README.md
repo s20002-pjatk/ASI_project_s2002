@@ -6,13 +6,12 @@
 ## 4. [Authors](#authors)
 
 ## 1. General <a name="general"></a>
-The application was designed to support choice of wine. It can help non-expert customers to select quqlity wine. It can be a part of bigger software as well as stand-alone application. Besides, the pipeline should also work in a loop that: 
-creates ML model, 
-eveluates the model using new batches of data
-detectcts data drift
-in case of the data drift retraines and updates the model
+The application was clasifies whether a given wine is classfied as 'good' or 'bad' based on 62 decriptors. It can support non-expert customers to select quqlity wine. It can be used as a stand-alone application or incorporated as a component of a larger platform. 
 
-Data to construct machine learning model were downlowaded from Kaggle.
+The application the application works in a looped pipeline that monitors performance of the machine learning model and retraines and updates it on the fly if a data drift is dtected. 
+
+Data to construct machine learning model were downlowaded from Kaggle. It can be accessed under the following link:
+
 
 ## 2. Architecture <a name="architecture"></a>
 The architecture of the application is described by the diagram shown in the Figure 1.
@@ -31,18 +30,27 @@ The easiest way to run the application is to use Anaconda Navigator. It can be d
 After installation of the anaconda software, create a new virtual evironment in Anaconda Navigator. Use the requirements.txt to create 
 new environment by typing in Anaconda Prompt:
 
-$ conda create --name <env> --file requirements.txt
+$ conda create --name ASI python=3.8.13 -y
 
-The new enrvironment comprises all necessary libraries to run the application: numpy,pandas and pycaret.
+The next step is to activate new environmet. It can be done by typing in the fllowing command in Anaconda Prompt:
+
+$ C:\Users\saras>conda activate ASI
+
+In order to run the application it is neccessary to install the following libraries:
+numpy==1.19.5
+pandas==1.4.2
+pycaret==2.3.10
   
-To activate new environmet , type in the fllowing command in Anaconda Prompt:
+they can be  installed in the virtual environment by typing in Anaconda Prompt:
 
-(base) C:\Users\saras>conda activate ASI
+$ pip install <library>==<version>
 
 To run the application type in  Anaconda Prompt the following command:
-(ASI) C:\Users\saras> python wine_classifier_mod2.py
+$ python wine_classifier_mod2.py
 
 Make sure that Anaconda Prompt points the correct location where the file is stored. 
+
+In case of evaluating new data, they should be stored in the data folder and named "batch_no.csv".
 
   
 ## 4. Authors <a name="authors"></a>
