@@ -6,11 +6,12 @@
 ## 4. [Authors](#authors)
 
 ## 1. General <a name="general"></a>
-The application was clasifies whether a given wine is classfied as 'good' or 'bad' based on 62 decriptors. It can support non-expert customers to select quqlity wine. It can be used as a stand-alone application or incorporated as a component of a larger platform. 
+The application predicts whether a given wine can be classfied as 'good' or 'bad' based on 62 decriptors (mostly cateorical variables like the country of origin or presence of specific aroma but also price of the given wine). The application can support non-expert customers to select quqlity wine. It can be used as a stand-alone application or incorporated as a component of a larger platform. 
 
-The application the application works in a looped pipeline that monitors performance of the machine learning model and retraines and updates it on the fly if a data drift is dtected. 
+The application works in a looped-pipeline that monitors performance of the machine learning model and retraines and updates it on the fly if a data drift is detected. 
 
 Data to construct machine learning model were downlowaded from Kaggle. It can be accessed under the following link:
+https://www.kaggle.com/datasets/dbahri/wine-ratings
 
 
 ## 2. Architecture <a name="architecture"></a>
